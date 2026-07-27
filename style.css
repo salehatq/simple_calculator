@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Geist+Pixel&display=swap');
 
+:root{
+    --primary: #fff;
+    --btnColor: #c9632b;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -44,7 +49,7 @@ input{
 }
 
 input::placeholder{
-    color: white;
+    color: var(--primary);
 }
 
 button{
@@ -52,7 +57,7 @@ button{
     width: 60px;
     height: 60px;
     margin: 10px;
-    color: #fff;
+    color: var(--primary);
     border: 1px solid rgba(0, 0, 0, 0.25);
     border-radius: 50%;
     background: transparent;
@@ -64,21 +69,21 @@ button{
 
 button:hover{
     background-color: #3b3b3b;
-    color: #fff;
+    color: var(--primary);
     transform: translateY(-2px);
     transition: transform 0.5s ease;
 }
 
 .eqbtn{
-    background-color: #c9632b;
+    background-color: var(--btnColor);
     text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
 }
 
 .eqbtn:hover{
-    background-color: #c9632b;
+    background-color: var(--btnColor);
     transition: transform 1s ease-in-out;
 }
 
 .opr{
-    color: #c9632b;
+    color: var(--btnColor);
 }
