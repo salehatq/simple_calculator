@@ -1,0 +1,1 @@
+This is a simple calculator with a clean, minimal and glassmorphic UI and functionalities of a basic arithmetic operations through JavaScript.
